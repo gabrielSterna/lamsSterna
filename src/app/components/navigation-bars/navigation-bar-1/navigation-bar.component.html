@@ -1,4 +1,8 @@
-<header class="navbar navbar-expand-lg fixed-top" [attr.data-bs-theme]="mode">
+
+<header
+  class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark bg-opacity-75"
+  [attr.data-bs-theme]="mode"
+>
   <div class="container">
     <component-logo-box [className]="'pe-sm-3'" />
 
@@ -12,8 +16,8 @@
       target="_blank"
       rel="noopener"
     >
-      <i class="ai-cart fs-xl me-2 ms-n1"></i>
-      Buy now
+      
+      Contact Us
     </a>
 
     <vertical-menu-button></vertical-menu-button>
@@ -28,3 +32,11 @@
     </nav>
   </div>
 </header>
+
+<style>
+header.navbar {
+  background-color: rgba(33, 33, 33, 0.75); /* Fondo oscuro con transparencia */
+  color: #ffffff; /* Texto claro */
+  transition: background-color 0.3s ease; /* Suaviza el cambio de color */
+}
+</style>

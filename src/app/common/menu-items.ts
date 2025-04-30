@@ -11,25 +11,20 @@ export type MenuItemType = {
 }
 
 export const MENU_ITEMS: MenuItemType[] = [
+  
   {
-    key: 'home',
-    label: 'Home',
-    isMega: true,
-    children: [],
-  },
-  {
-    key: 'aboutUs',
+    key: 'about',
     label: 'About Us',
-    children: [],
+    url: '/about',
+    isMega: false,
+    
   },
   {
-    key: 'apply',
-    label: 'Aplication',
-    children: [],
+    key: 'services',
+    label: 'Services',
+    url: '/services',
+    isMega: false,
   },
-  {
-    key: 'news',
-    label: 'News',
-    children: [],
-  }
+  
+ 
 ]

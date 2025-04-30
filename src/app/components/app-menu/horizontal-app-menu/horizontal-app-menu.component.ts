@@ -18,10 +18,10 @@ export class HorizontalAppMenu {
 
   megaMenuItems = this.menuItems.filter((item) => item.isMega)
   normalMenuItems = this.menuItems.filter((item) => !item.isMega)
-  splitMegaMenuItems: MenuItemType[][] = splitArray(
-    this.megaMenuItems[0].children ?? [],
-    10
-  )
+
+  splitMegaMenuItems: MenuItemType[][] = this.megaMenuItems.length > 0
+  ? splitArray(this.megaMenuItems[0].children ?? [], 10)
+  : [];
 
   trimmedURL = location?.pathname?.replaceAll(
     basePath !== '' ? basePath + '/' : '',

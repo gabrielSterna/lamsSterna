@@ -1,6 +1,88 @@
-<section class="overflow-hidden pb-5 mb-lg-3 mb-xl-4 mb-xxl-5">
-  <div class="container pb-sm-2 pb-md-3 pb-lg-5 mb-md-3 mb-lg-0">
-    <div class="position-relative mx-auto" style="max-width: 1198px">
+<section class="overflow-hidden pb-5 mb-lg-3 mb-xl-4 mb-xxl-5 mt-5">
+  <div class="container pb-sm-2 pb-md-3 pb-lg-5 mb-md-3 mb-lg-0 ">
+    
+
+    <div class="row pt-5 mt-md-4">
+      <div class="col-md-6 col-xxl-5 offset-xxl-1 mb-4 mb-md-0">
+        <div class="text-center text-md-start pe-md-4 pe-xl-5 pe-xxl-0">
+          <h2 class="h1 mb-sm-4">
+            Who We Are
+          </h2>
+          <p
+            class="fs-lg mb-2 mb-sm-3 mb-xl-4 mx-auto mx-md-0"
+            style="max-width: 475px"
+          >
+          Link Asia Manpower Solutions Corp. (LAMS) is a licensed land-based 
+          recruitment agency (DMW License No. DMW-067-LB-03312023-R), specializing
+          in bridging Filipino talent with international employers. Our expertise
+          spans healthcare, engineering, technical trades, and skilled labor.
+          </p>
+          <a class="btn btn-lg btn-link px-0" href="javascript:void(0);">
+            More about us
+            <i class="ai-arrow-right ms-2"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6 mt-n3">
+        <div
+          class="row row-cols-2 row-cols-sm-3 row-cols-md-2 row-cols-lg-3 gy-md-2 gx-3"
+        >
+          @for (item of aboutData; track item; let last = $last) {
+            <div class="col">
+              <div
+                class="ratio ratio-21x9 position-relative mx-auto"
+                style="max-width: 180px"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center position-absolute top-0 start-0 w-100 h-100 px-3"
+                >
+                  <img
+                    class="d-block d-dark-mode-none"
+                    src="{{ item.imageSrcDark }}"
+                    width="{[item.width]}"
+                    alt="{{ item.brand }}"
+                  />
+                  <img
+                    class="d-none d-dark-mode-block"
+                    src="{{ item.imageSrcLight }}"
+                    width="{{ item.width }}"
+                    alt="{{ item.brand }}"
+                  />
+                </div>
+              </div>
+            </div>
+
+            @if (last) {
+              <div class="col d-none d-sm-block d-md-none d-lg-block">
+                <div
+                  class="ratio ratio-21x9 position-relative mx-auto"
+                  style="max-width: 180px"
+                >
+                  <div
+                    class="d-flex align-items-center justify-content-center position-absolute top-0 start-0 w-100 h-100 px-3"
+                  >
+                    <img
+                      class="d-block d-dark-mode-none"
+                      src="{{ item.imageSrcDark }}"
+                      width="{[item.width]}"
+                      alt="{{ item.brand }}"
+                    />
+                    <img
+                      class="d-none d-dark-mode-block"
+                      src="{{ item.imageSrcLight }}"
+                      width="{{ item.width }}"
+                      alt="{{ item.brand }}"
+                    />
+                  </div>
+                </div>
+              </div>
+            }
+          }
+        </div>
+      </div>
+    </div>
+
+    <div class="position-relative mx-auto " style="max-width: 1198px">
       <div
         class="position-relative z-3"
         data-aos="fade-left"
@@ -67,83 +149,5 @@
       </div>
     </div>
 
-    <div class="row pt-5 mt-md-4">
-      <div class="col-md-6 col-xxl-5 offset-xxl-1 mb-4 mb-md-0">
-        <div class="text-center text-md-start pe-md-4 pe-xl-5 pe-xxl-0">
-          <h2 class="h1 mb-sm-4">
-            A team of specialists works for your business
-          </h2>
-          <p
-            class="fs-lg mb-2 mb-sm-3 mb-xl-4 mx-auto mx-md-0"
-            style="max-width: 475px"
-          >
-            Sapien ultrices egestas at faucibus on diam velit diam amet nibh in
-            quam rutrum diam natoque scelerisque viverra pharetra quis massa
-            maecenas vulputate.
-          </p>
-          <a class="btn btn-lg btn-link px-0" href="javascript:void(0);">
-            More about us
-            <i class="ai-arrow-right ms-2"></i>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-6 mt-n3">
-        <div
-          class="row row-cols-2 row-cols-sm-3 row-cols-md-2 row-cols-lg-3 gy-md-2 gx-3"
-        >
-          @for (item of aboutData; track item; let last = $last) {
-            <div class="col">
-              <div
-                class="ratio ratio-21x9 position-relative mx-auto"
-                style="max-width: 180px"
-              >
-                <div
-                  class="d-flex align-items-center justify-content-center position-absolute top-0 start-0 w-100 h-100 px-3"
-                >
-                  <img
-                    class="d-block d-dark-mode-none"
-                    src="{{ item.imageSrcDark }}"
-                    width="{[item.width]}"
-                    alt="{{ item.brand }}"
-                  />
-                  <img
-                    class="d-none d-dark-mode-block"
-                    src="{{ item.imageSrcLight }}"
-                    width="{{ item.width }}"
-                    alt="{{ item.brand }}"
-                  />
-                </div>
-              </div>
-            </div>
-
-            @if (last) {
-              <div class="col d-none d-sm-block d-md-none d-lg-block">
-                <div
-                  class="ratio ratio-21x9 position-relative mx-auto"
-                  style="max-width: 180px"
-                >
-                  <div
-                    class="d-flex align-items-center justify-content-center position-absolute top-0 start-0 w-100 h-100 px-3"
-                  >
-                    <img
-                      class="d-block d-dark-mode-none"
-                      src="{{ item.imageSrcDark }}"
-                      width="{[item.width]}"
-                      alt="{{ item.brand }}"
-                    />
-                    <img
-                      class="d-none d-dark-mode-block"
-                      src="{{ item.imageSrcLight }}"
-                      width="{{ item.width }}"
-                      alt="{{ item.brand }}"
-                    />
-                  </div>
-                </div>
-              </div>
-            }
-          }
-        </div>
-      </div>
-    </div>
   </div>
 </section>

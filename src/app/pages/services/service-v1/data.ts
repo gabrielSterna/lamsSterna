@@ -30,67 +30,65 @@ export type ServiceTestimonialType = {
 
 export const serviceGrid: ServiceGridType[] = [
   {
-    title: 'Advertising communications',
-    icons: serviceIcon,
-    description:
-      'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint velit officia consequat duis enim velit mollit.',
-  },
-  {
-    title: 'Marketing and branding',
-    icons: serviceIcon2,
-    description:
-      'Find aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur neque congue.',
-  },
-  {
-    title: 'Web and Internet marketing',
-    icons: serviceIcon3,
-    description:
-      'Hac erat leo proin odio est sed sit felis facilisi integer sed congue neque turpis dictumst sit sed volutpat aliquet tortor non.',
-  },
-  {
-    title: 'Email marketing',
-    icons: serviceIcon4,
-    description:
-      'Adipiscing posuere dui, amet, augue nisl dictum justo, enim. Sed neque congue non quam ultrices interdum vitae vestibulum.',
-  },
-  {
-    title: 'Working on communication',
-    icons: serviceIcon5,
-    description:
-      'Molestie enim tempus egestas a at enim. Velit hendrerit nibh eget porta pretium. Ipsum orci habitasse eget malesuada platea.',
-  },
-  {
-    title: 'Business copywriting',
+    title: 'Talent-Opportunity Alignment',
     icons: serviceIcon6,
     description:
-      'Massa donec quam orci feugiat. Quis iaculis facilisi ornare aenean lorem enim purus in lacus in ullamcorper diam consequat.',
+      'LAMS connects the right people with the right international opportunities.',
+  },
+  {
+    title: 'Specialized in Filipino Talent',
+    icons: serviceIcon2,
+    description:
+      'We focus on skilled Filipino professionals, known for their dedication and work ethic.',
+  },
+  //
+  {
+    title: 'Global Reach',
+    icons: serviceIcon3,
+    description:
+      'We partner with companies around the world to meet diverse labor needs.',
+  },
+  //
+  {
+    title: 'Skills-Based Matching',
+    icons: serviceIcon4,
+    description:
+      'Our recruitment process is centered on matching the right skills to each role.',
+  },
+  {
+    title: 'Emphasis on Reliability and Commitment',
+    icons: serviceIcon5,
+    description:
+      'We work with employers who value trust, consistency, and heart.',
+  },
+  {
+    title: 'Ethical Recruitment Philosophy',
+    icons: serviceIcon6,
+    description:
+      'LAMS promotes fair, respectful, and impact-driven hiring practices.',
   },
 ]
 
 export const benefits: BenefitType[] = [
   {
     number: '01',
-    title: 'Individual approach',
+    title: 'Client-Centric Approach',
     description:
-      'Hac erat leo proin odio est sed sit felis facilisi integer sed congue neque turpis dictumst sit sed volutpat aliquet tortor non.',
+      'We view every client as a partner, tailoring ourservices to your specific business goals and workforce needs.',
   },
+  //
+  
   {
     number: '02',
-    title: 'Integrated analytics',
+    title: 'Proactive Communication',
     description:
-      'Find aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur neque congue aliqua dolor do leo proin odio est sed sit felis facilisi integer.',
+      'We maintain open and frequent communication, keeping you updated at every stage of the recruitment process.',
   },
   {
     number: '03',
-    title: 'Step by step work',
+    title: 'Candidate Care and Welfare',
     description:
-      'More erat leo proin odio est sed sit felis facilisi integer sed congue neque turpis dictumst sit sed volutpat aliquet tortor.',
-  },
-  {
-    number: '04',
-    title: 'Full spectrum of services',
-    description:
-      'Adipiscing posuere dui, amet, augue nisl dictum justo, enim sed neque congue non quam ultrices interdum vitae vestibulum. Hac erat leo proin odio est sed sit felis facilisi integer sed.',
+      'Our support for candidates extends beyond deployment, fostering satisfaction and retention.',
   },
 ]
 export const servicesTestimonial: ServiceTestimonialType = [

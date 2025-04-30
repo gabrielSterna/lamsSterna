@@ -2,6 +2,8 @@ import { Component } from '@angular/core'
 import { NavigationBarComponent } from '@components/navigation-bars'
 import { HeroComponent } from './components/hero/hero.component'
 import { ServicesComponent } from './components/services/services.component'
+import { WhylamsComponent } from './components/whylams/whylams.component'
+import { WhoWeAreComponent } from './components/whoweare/whoweare.component'
 import { ToolsComponent } from './components/tools/tools.component'
 import { BenefitsComponent } from './components/benefits/benefits.component'
 import { AboutComponent } from './components/about/about.component'
@@ -11,13 +13,15 @@ import { TeamComponent } from './components/team/team.component'
 import { ResourcesComponent } from './components/resources/resources.component'
 import { ContactComponent } from './components/contact/contact.component'
 import { FooterComponent } from './components/footer/footer.component'
+import { CTAComponent } from "../../services/service-v1/component/cta/cta.component";
 
 @Component({
   selector: 'landings-marketing-agency',
   standalone: true,
   imports: [
-    NavigationBarComponent,
     HeroComponent,
+    WhylamsComponent,
+    WhoWeAreComponent,
     ServicesComponent,
     ToolsComponent,
     BenefitsComponent,
@@ -28,7 +32,8 @@ import { FooterComponent } from './components/footer/footer.component'
     ResourcesComponent,
     ContactComponent,
     FooterComponent,
-  ],
+    CTAComponent
+],
   templateUrl: './marketing-agency.component.html',
   styles: ``,
 })

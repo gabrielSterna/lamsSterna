@@ -421,6 +421,41 @@ export const marketingAgecy: ServicesType = [
   ],
 ]
 
+export const lamsServices: ServicesType = [
+  [
+    {
+      title: 'Recruitment-to-Employment',
+      icon: 'ai-search-settings',
+      color: 'primary',
+      description:
+        'From screening to deployment, we handle it all so you canfocus on your core business',
+    },
+    {
+      title: 'Dedicated Support',
+      icon: 'ai-bulb-alt',
+      color: 'info',
+      description:
+        'Morbi et massa fames ac lerisque sit commodo dignissim faucibus vel quisque proin lectus orbi et massa fames ac massa.',
+    },
+  ],
+  [
+    {
+      title: 'Orientation Seminars',
+      icon: 'ai-mail-filled',
+      color: 'warning',
+      description:
+        'Sapiener ultrices egestas at faucibus eu diam velit diam id amet nibh quam rutrum diam diam natoque scelerisque viverra.',
+    },
+    {
+      title: 'Job Order Accreditation',
+      icon: 'ai-telegram',
+      color: 'danger',
+      description:
+        'Pharetra in morbi quis is massa maecenas arcu vulputate pulvinar elit non nullage a, duis tortor mi massa ipsum in eu eu eget libero.',
+    },
+  ],
+]
+
 export const bindedTestimonial: testimonialType[] = [
   {
     id: 'author1',

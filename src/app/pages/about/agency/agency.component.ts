@@ -7,8 +7,10 @@ import { TeamComponent } from './component/team/team.component'
 import { TestimonialComponent } from './component/testimonial/testimonial.component'
 import { LocationComponent } from './component/location/location.component'
 import { ServiceComponent } from './component/service/service.component'
-import { FooterComponent } from './component/footer/footer.component'
 import { RouterModule } from '@angular/router'
+import { FooterComponent as FooterComponent } from "../../landings/marketing-agency/components/footer/footer.component";
+import { CTAComponent } from "../../services/service-v1/component/cta/cta.component";
+
 
 @Component({
   selector: 'about-agency',
@@ -22,9 +24,10 @@ import { RouterModule } from '@angular/router'
     TestimonialComponent,
     LocationComponent,
     ServiceComponent,
-    FooterComponent,
     RouterModule,
-  ],
+    FooterComponent,
+    CTAComponent
+],
   templateUrl: './agency.component.html',
   styles: ``,
 })

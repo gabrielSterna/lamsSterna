@@ -5,6 +5,10 @@ import { CustomizerComponent } from '@components/customizer/customizer.component
 import { PreloaderComponent } from '@components/preloader/preloader.component'
 import { TitleService } from '@core/services/title.service'
 import { MarketingAgencyComponent } from "./pages/landings/marketing-agency/marketing-agency.component";
+import { NavigationBarComponent } from "./components/navigation-bars/navigation-bar-1/navigation-bar.component";
+import { AboutComponent } from "./pages/landings/marketing-agency/components/about/about.component";
+import { FooterComponent } from "./pages/landings/marketing-agency/components/footer/footer.component";
+
 
 @Component({
   selector: 'app-root',
@@ -14,7 +18,10 @@ import { MarketingAgencyComponent } from "./pages/landings/marketing-agency/mark
     PreloaderComponent,
     BackToTopComponent,
     CustomizerComponent,
-    MarketingAgencyComponent
+    MarketingAgencyComponent,
+    NavigationBarComponent,
+    AboutComponent,
+    FooterComponent
 ],
   templateUrl: './app.component.html',
 })

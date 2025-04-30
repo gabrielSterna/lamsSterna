@@ -55,27 +55,27 @@ export type TestimonialSwiperType = {
 export const stepsToSuccess: StepType[] = [
   {
     stepNumber: '01',
-    stepTitle: 'Formulation of the problem',
+    stepTitle: 'Wxtensive Experience',
     stepDescription:
-      'Find aute irure dolor in reprehenderi voluptate velit esse cillum dolore eu fugiat nulla pariatur am luctus.',
+      'With years of expertise in international recruitment, we understand the evolving needs of global industries and the dreams of Filipino talent.',
   },
   {
     stepNumber: '02',
-    stepTitle: 'Assessment of the current state',
+    stepTitle: 'Tailored Recruitment Solutions',
     stepDescription:
-      'Risus quam quis at euismod vitae dui elementu eu in diam malesuada mattis ut urna integer erat nisi nibh.',
+      'We customize our services to meet your specific business goals and workforce needs, ensuring the right fit every time.',
   },
   {
     stepNumber: '03',
-    stepTitle: 'Business plan creation',
+    stepTitle: 'Reliable Workforce',
     stepDescription:
-      'A sagittis morbi massa venenatis, egestas viverra ac elit nibh tellus nisi in nec tellus mauris feugiat gravida.',
+      'We deliver highly skilled, pre-screened candidates who are ready to perform, contribute, and grow with your organization.',
   },
   {
     stepNumber: '04',
-    stepTitle: 'Strategy implementation',
+    stepTitle: 'End-to-End Support',
     stepDescription:
-      'Elementum purus, nisl ipsum sit. Amet sit praesent proin sit cras. Leo sed praesent nunc vel nec risus.',
+      'From recruitment to deployment and beyond, we provide comprehensive assistance, making the process seamless and worry-free for both employers and job seekers.',
   },
 ]
 
@@ -143,62 +143,64 @@ export const testimonialSwiperData: SwiperType[] = [
 
 export const servicesData: ServiceType[] = [
   {
-    title: 'Market shares analysis',
+    title: 'Customized Talent Matching',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget molestie massa. Donec egestas ex et velit egestas dignissim. Sed fringilla velit turpis.',
+      'We go beyond standard recruitment by understanding your specific business needs and aligning them with the right talent.',
     icon: marketShares,
   },
   {
-    title: 'Marketing and branding',
+    title: 'Time and Cost Efficiency',
     description:
-      'Find aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur neque congue aliqua dolor do amet sint velit officia.',
+      'We handle the complexities of international recruitment regulations, giving you peace of mind and ensuring compliance at every step.',
     icon: marketingBranding,
   },
   {
-    title: 'Strategy development',
+    title: 'Compliance and Assurance',
     description:
-      'More erat leo proin odio est sed sit felis facilisi integer sed congue neque turpis dictumst sit sed volutpat aliquet tortor non aute irure dolor in reprehenderit in.',
+      'We handle the complexities of international recruitment regulations, giving you peace of mind and ensuring compliance at every step.',
     icon: strategDevelopment,
   },
   {
-    title: 'Email marketing',
+    title: 'Scalable Workforce Solutions',
     description:
-      'Adipiscing posuere dui, amet, augue nisl dictum justo enier sed neque congue non quam ultrices interdum vitae vestibulumaute irure dolor in reprehenderit in.',
-    icon: emailMarketing,
-  },
-  {
-    title: 'Working on communication',
-    description:
-      'Ut eu amet ac blandit nisl malesuada lectus viverra arcu in rhoncus egestas lorem consequat sollicitudin risus, in pellentesque tellus tincidunt purus viverra dignissim.',
+      'Whether you need one specialized professional or an entire team, we adapt to your workforce requirements.',
     icon: communication,
   },
   {
-    title: 'Business copywriting',
+    title: 'Continuous Support',
     description:
-      'Massa morbi duis et ornare urna dictum vestibulum pulvinar nunc facilisis ornare id at at ut arcu integer tristique placerat non turpis nibh turpis ullamcorper est porttitor.',
+      'Our partnership doesn’t end at deployment. We provide ongoing support to ensure smooth transitions and resolve any issues promptly.',
     icon: businessCopywriting,
   },
+  {
+    title: 'Empowering Growth',
+    description:
+      'By connecting you with high-quality talent, we help drive your business forward, enabling you to achieve greater success.',
+    icon: emailMarketing,
+  },
+  
+  
 ]
 
 export const professionalMissionData: ProfessionalMissionType[] = [
   {
-    title: 'Individual approach',
+    title: 'Mission',
     content:
-      'Find aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur neque congue aliqua dolor.',
+      'To empower Filipino talent by providing ethical and impactful overseas employment.',
     icon: businessCopywriting,
   },
   {
-    title: 'Integrated analytics',
+    title: 'Vision',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget molestie massa. Donec egestas nulla pariatur.',
+      'To be a globally trusted recruitment partner that transforms lives and drives business success through people.',
     icon: marketShares,
   },
-  {
+  /*{
     title: 'Step by step work',
     content:
       'More erat leo proin odio est sed sit felis facilisi integer sed congue neque turpis dictumst sit sed volutpat aliquet tortor.',
     icon: strategDevelopment,
-  },
+  },*/
 ]
 
 export const locationData: LocationType[] = [

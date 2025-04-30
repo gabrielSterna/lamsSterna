@@ -13,6 +13,7 @@ import { NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap'
 import { ThemeSwitcherComponent } from '../components/theme-switcher/theme-switcher.component'
 import { HorizontalAppMenu } from '@components/app-menu/horizontal-app-menu/horizontal-app-menu.component'
 import { buyLink } from 'src/app/states/constants'
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'component-navigation-bar',
@@ -35,7 +36,7 @@ export class NavigationBarComponent implements OnInit {
 
   private render = inject(Renderer2)
 
-  constructor(private elementRef: ElementRef) {}
+  constructor(private elementRef: ElementRef, private router: Router) {}
 
   ngOnInit(): void {
     if (this.mode) {
@@ -45,6 +46,10 @@ export class NavigationBarComponent implements OnInit {
         this.mode
       )
     }
+  }
+
+  navigateToPage(route: string): void {
+    this.router.navigate([route]);
   }
 
   // Window Scroll Event
