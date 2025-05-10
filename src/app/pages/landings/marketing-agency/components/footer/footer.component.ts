@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router'
 import { LogoBoxComponent } from '@components/logo-box/logo-box.component'
 import { createdBy, developedByLink } from 'src/app/states/constants'
 
+
 @Component({
   selector: 'marketing-agency-footer',
   standalone: true,

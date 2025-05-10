@@ -1,7 +1,9 @@
-<section class="container">
+<section class="container mb-5">
   <div
     class="card border-0 bg-primary bg-opacity-10 position-relative overflow-hidden"
   >
+
+  
     <svg
       class="d-block position-absolute top-0 start-0 text-white text-dark-mode-dark"
       width="125"
@@ -51,50 +53,62 @@
         d="M13.0417 15.1485C18.7381 10.3806 25.7233 6.78779 32.3773 4.42805C52.3217 -2.62478 76.5803 -0.291377 89.9528 18.0914C99.436 31.1261 101.262 52.5761 98.137 67.8474C94.9071 83.6571 88.4295 92.6458 74.8221 100.795C57.6962 111.053 34.339 113.786 24.8896 93.3249C20.9119 84.7197 18.2546 75.7674 13.8455 67.2289C9.83276 59.4504 3.10546 51.8265 1.45115 42.988C-0.716922 31.4112 4.80452 22.0566 13.0417 15.1485Z"
       ></path>
     </svg>
+    
     <div class="card-body position-relative z-2 px-lg-0 py-lg-5">
+      
       <div class="row py-2 py-sm-1 py-md-3 py-lg-4 py-xl-5">
+
+        
+        
+        
         <div class="col-md-4 col-lg-3 offset-lg-1 mb-3 mb-md-0">
+
+          
+          
           <div class="binded-content">
-            @for (item of bindedTestimonial; track $index) {
+            <div class="binded-content">
               <div
-                class="binded-item"
-                [ngClass]="{ active: $index === 0 }"
-                [id]="item.id"
+                class="binded-item active"
+                [id]="bindedTestimonial[0]?.id"
               >
+              <a  href="https://sterna-staff.com/" target="_blank">
                 <img
-                  class="d-block rounded-circle mb-3"
-                  [src]="item.avatar"
+                  class="d-block mb-3 btn"
+                  [src]="bindedTestimonial[0]?.avatar"
                   width="86"
-                  [alt]="item.name"
+                  [alt]="bindedTestimonial[0]?.name"
+                  style="width: 50%;"
                 />
-                <h4 class="mb-0">{{ item.name }}</h4>
-                <p class="fs-lg text-body-secondary mb-0">{{ item.role }}</p>
+              </a>
+                <h4 class="mb-0">{{ bindedTestimonial[0]?.name }}</h4>
+                <p class="fs-lg text-body-secondary mb-0">{{ bindedTestimonial[0]?.role }}</p>
+
+                
               </div>
-            }
+              <a href="https://sterna-staff.com/" target="_blank">
+              <button class="btn btn-primary btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex">VISIT STERNA!</button>
+            </a>
+            </div>
           </div>
         </div>
         <div class="col-md-8 col-lg-7">
           <div class="swiper" #FeedbackSwiper>
             <div class="swiper-wrapper">
-              @for (item of testimonialSwiper; track $index) {
-                <div
-                  class="swiper-slide"
-                  [attr.data-swiper-binded]="item.author"
-                >
-                  <p class="text-dark lead mb-0">
-                    {{ item.quote }}
-                  </p>
-                </div>
-              }
+              <div
+                class="swiper-slide"
+                [attr.data-swiper-binded]="testimonialSwiper[0]?.author"
+              >
+                <p class="text-dark lead mb-0">
+                  {{ testimonialSwiper[0]?.quote }}
+                </p>
+              </div>
             </div>
+            
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div
-    class="swiper-pagination position-relative bottom-0 pt-4 mt-2 mt-md-3"
-    id="testimonials-bullets"
-  ></div>
+  
 </section>

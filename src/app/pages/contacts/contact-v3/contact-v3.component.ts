@@ -3,7 +3,8 @@ import { Breadcrumb1Component } from '@components/breadcrumb/breadcrumb-1/breadc
 import { NavigationBar2Component } from '@components/navigation-bars'
 import { ContactDetailComponent } from './component/contact-detail/contact-detail.component'
 import { MapComponent } from './component/map/map.component'
-import { FooterComponent } from './component/footer/footer.component'
+import { FooterComponent } from "../../landings/marketing-agency/components/footer/footer.component";
+import { ContactComponent } from "../../landings/marketing-agency/components/contact/contact.component";
 
 @Component({
   selector: 'app-contact-v3',
@@ -14,7 +15,8 @@ import { FooterComponent } from './component/footer/footer.component'
     ContactDetailComponent,
     MapComponent,
     FooterComponent,
-  ],
+    ContactComponent
+],
   templateUrl: './contact-v3.component.html',
   styles: ``,
 })

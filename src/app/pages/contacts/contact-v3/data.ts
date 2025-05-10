@@ -13,20 +13,17 @@ export type ContactTimingType = {
 }
 export const contactCategory: ContactCategoryType[] = [
   {
-    category: 'Main office',
-    phone: '+1 (786) 322 560 33',
-    link: 'tel:+178632256033',
+    category: 'Phone 1',
+    phone: '+632-8294-0490',
+    link: 'tel:+63282940490',
+    
   },
   {
-    category: 'Reception room',
-    phone: '+1 (786) 300 560 44',
-    link: 'tel:+178630056044',
+    category: 'Phone 2',
+    phone: '+63-998-990-0756',
+    link: 'tel:+63282940490',
   },
-  {
-    category: 'Franchise',
-    phone: '+1 (786) 300 500 55',
-    link: 'tel:+178630050055',
-  },
+  
 ]
 
 export const contactTiming: ContactTimingType[] = [

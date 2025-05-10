@@ -1,11 +1,12 @@
 import { Component } from '@angular/core'
 import { ServicesType, lamsServices } from '../../data'
 import { CommonModule } from '@angular/common'
+import { RouterModule } from '@angular/router'
 
 @Component({
   selector: 'marketing-agency-whylams',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './whylams.component.html',
   styles: ``,
 })

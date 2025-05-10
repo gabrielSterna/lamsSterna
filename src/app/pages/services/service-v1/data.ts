@@ -31,7 +31,7 @@ export type ServiceTestimonialType = {
 export const serviceGrid: ServiceGridType[] = [
   {
     title: 'Talent-Opportunity Alignment',
-    icons: serviceIcon6,
+    icons: serviceIcon,
     description:
       'LAMS connects the right people with the right international opportunities.',
   },

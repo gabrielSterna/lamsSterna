@@ -230,7 +230,7 @@ export const testimonialQuotes: TestimonialSwiperType[] = [
   {
     author: '#author1',
     quote:
-      '“Around provides us with the detailed and accurate data we need to make strategic decisions. All tools are constantly being improved and contain a lot of useful and interesting information. Thanks to Around, we can constantly analyze our big data quickly and efficiently.”',
+      '“At LAMS, we believe impact starts with collaboration. That’s why we’ve partnered with STERNA, a leader in international recruitment, to connect Filipino labour & talent with global opportunities. Together, we’re setting a new standard in ethical workforce deployment while building sustainable careers, one opportunity at a time.”',
   },
   {
     author: '#author2',
@@ -435,7 +435,7 @@ export const lamsServices: ServicesType = [
       icon: 'ai-bulb-alt',
       color: 'info',
       description:
-        'Morbi et massa fames ac lerisque sit commodo dignissim faucibus vel quisque proin lectus orbi et massa fames ac massa.',
+        'From document processing to contract completion, we stand by both you and the candidates.',
     },
   ],
   [
@@ -444,14 +444,14 @@ export const lamsServices: ServicesType = [
       icon: 'ai-mail-filled',
       color: 'warning',
       description:
-        'Sapiener ultrices egestas at faucibus eu diam velit diam id amet nibh quam rutrum diam diam natoque scelerisque viverra.',
+        'Ensuring candidates are well-prepared for smooth integration into your workforce.',
     },
     {
       title: 'Job Order Accreditation',
       icon: 'ai-telegram',
       color: 'danger',
       description:
-        'Pharetra in morbi quis is massa maecenas arcu vulputate pulvinar elit non nullage a, duis tortor mi massa ipsum in eu eu eget libero.',
+        'Accreditation of MWO verified job order at the Department of Migrant Workers.',
     },
   ],
 ]
@@ -459,26 +459,8 @@ export const lamsServices: ServicesType = [
 export const bindedTestimonial: testimonialType[] = [
   {
     id: 'author1',
-    name: 'Lilianna Bocouse',
-    role: 'Head of Marketing',
-    avatar: 'assets/img/avatar/13.jpg',
-  },
-  {
-    id: 'author2',
-    name: 'Darell Steward',
-    role: 'Project Manager',
-    avatar: 'assets/img/avatar/14.jpg',
-  },
-  {
-    id: 'author3',
-    name: 'Annette Black',
-    role: 'Lead Designer',
-    avatar: 'assets/img/avatar/15.jpg',
-  },
-  {
-    id: 'author4',
-    name: 'Ralph Edwards',
-    role: 'CEO, Co-Founder',
-    avatar: 'assets/img/avatar/16.jpg',
+    name: 'Sterna International Mobility',
+    role: '',
+    avatar: 'assets/img/Lams/logoSterna.png',
   },
 ]
